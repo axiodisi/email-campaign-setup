@@ -9,7 +9,7 @@ document.getElementById('signup-form').addEventListener('submit', function(e) {
         tag: tag
     };
     
-    fetch('https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec', {
+    fetch('https://script.google.com/macros/s/AKfycbwrPyaay3LK4dtDvSfYue_GSayiEkWWECNodyQ7dCrd6k53vD3ciUQP3EFQmQPwhgSQ/exec', {
         method: 'POST',
         body: JSON.stringify(data),
         headers: {
