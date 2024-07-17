@@ -1,1 +1,36 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Bankroll Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Elite Bankroll Management</h1>
+        <p>Sign up to receive updates and exclusive content!</p>
+        <form id="signup-form">
+            <label for="sequenceName">Sequence Name:</label>
+            <input type="text" id="sequenceName" name="sequenceName" required>
+            
+            <label for="email">Recipient Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="interval">Email Interval (days):</label>
+            <input type="number" id="interval" name="interval" required>
+            
+            <label for="subject">Email Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+            
+            <label for="body">Email Body (HTML):</label>
+            <textarea id="body" name="body" required></textarea>
+            
+            <button type="submit">Schedule Email</button>
+        </form>
+        <div id="message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
