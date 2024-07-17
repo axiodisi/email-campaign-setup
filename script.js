@@ -1,18 +1,12 @@
 document.getElementById('signup-form').addEventListener('submit', function(e) {
     e.preventDefault();
     
-    var sequenceName = document.getElementById('sequenceName').value;
     var email = document.getElementById('email').value;
-    var interval = document.getElementById('interval').value;
-    var subject = document.getElementById('subject').value;
-    var body = document.getElementById('body').value;
+    var tag = document.getElementById('tag').value;
     
     var data = {
-        sequenceName: sequenceName,
         email: email,
-        interval: interval,
-        subject: subject,
-        body: body
+        tag: tag
     };
     
     fetch('https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec', {
@@ -24,10 +18,10 @@ document.getElementById('signup-form').addEventListener('submit', function(e) {
     })
     .then(response => response.json())
     .then(data => {
-        document.getElementById('message').textContent = 'Email scheduled successfully!';
+        document.getElementById('message').textContent = 'Thank you for signing up!';
     })
     .catch(error => {
-        document.getElementById('message').textContent = 'There was an error scheduling your email.';
+        document.getElementById('message').textContent = 'There was an error submitting your form.';
         console.error('Error:', error);
     });
 });
