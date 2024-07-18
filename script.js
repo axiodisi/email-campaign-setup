@@ -2,14 +2,12 @@ document.getElementById('signup-form').addEventListener('submit', function(e) {
     e.preventDefault();
     
     var email = document.getElementById('email').value;
-    var tag = document.getElementById('tag').value;
     
     var data = {
-        email: email,
-        tag: tag
+        email: email
     };
     
-    fetch('https://script.google.com/macros/s/AKfycbwrPyaay3LK4dtDvSfYue_GSayiEkWWECNodyQ7dCrd6k53vD3ciUQP3EFQmQPwhgSQ/exec', {
+    fetch('https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec', {
         method: 'POST',
         body: JSON.stringify(data),
         headers: {
