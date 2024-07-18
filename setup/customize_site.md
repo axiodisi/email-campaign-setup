@@ -1,5 +1,5 @@
 
-### 7. `setup/customize_site.md`
+### setup/customize_site.md
 ```markdown
 # Customizing Your Site
 
@@ -25,4 +25,3 @@ If you need help customizing your site, you can use ChatGPT to assist you. Here 
 ### Troubleshooting
 
 For any issues, you can refer to the detailed documentation in the README file or use our custom GPT-powered helpdesk agent for real-time support.
-
