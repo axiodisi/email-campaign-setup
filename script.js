@@ -7,7 +7,7 @@ document.getElementById('signup-form').addEventListener('submit', function(e) {
         email: email
     };
     
-    fetch('https://script.google.com/macros/s/AKfycbxmESn7TU7yWSYNlS63ZdoKpGSyuW5yG-UOHDQv4tvSOe5jc0FbPhcb_bl714MHAJJU/exec', {
+    fetch('https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec', {
         method: 'POST',
         body: JSON.stringify(data),
         headers: {
