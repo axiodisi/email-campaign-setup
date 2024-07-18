@@ -26,10 +26,10 @@ For detailed instructions, see `setup/google_apps_script_setup.md`.
 1. Edit `index.html`, `style.css`, and `script.js` to customize your site.
 2. Follow the instructions in `setup/customize_site.md` for more details.
 
-## Step 4: Setting Up Email Sequences
+## Step 4: Managing Email Sequences
 
 1. Open the Google Sheet linked to your Google Apps Script.
-2. Add email sequences directly in the sheet or use the form on your website.
+2. Add email sequences directly in the sheet.
 
 For detailed instructions, see `setup/email_sequence_setup.md`.
 
