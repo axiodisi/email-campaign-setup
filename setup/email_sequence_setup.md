@@ -5,26 +5,26 @@
 1. **Open Google Sheet**:
    - Open the Google Sheet you created for email sequences.
    - Ensure it has the following columns:
-     - `Email Sequence Name`
-     - `Recipient Email`
-     - `Signup Date`
-     - `Email Interval (days)`
+     - `First Email Interval`
+     - `Days After First Email`
      - `Email Subject`
      - `Email Body (HTML)`
 
 2. **Add Email Sequences**:
-   - Manually add email sequences in the sheet or use the form on your website to schedule emails.
+   - Manually add email sequences in the sheet.
 
-## Using the Web Form
+### Example:
 
-1. Open your website.
-2. Fill in the form with the sequence details:
-   - `Sequence Name`
-   - `Recipient Email`
-   - `Email Interval (days)`
-   - `Email Subject`
-   - `Email Body (HTML)`
-3. Submit the form to schedule the email.
+| First Email Interval | Days After First Email | Email Subject          | Email Body (HTML)                    |
+|----------------------|------------------------|------------------------|--------------------------------------|
+| 0                    | 0                      | Welcome to our service | Welcome! Thank you for joining us.   |
+| 0                    | 3                      | Next Steps             | Here are the next steps.             |
+| 0                    | 7                      | How to Get Started     | Let's get started with our service.  |
+
+## Managing Email Sequences
+
+1. Open your Google Sheet.
+2. Add email sequences directly in the sheet with the desired intervals and email content.
 
 The scheduled emails will be sent automatically based on the intervals specified in the Google Sheet.
 
@@ -35,4 +35,3 @@ If you encounter any issues, check the following:
 - Verify that the time-driven trigger for the `scheduleEmails` function is set up correctly.
 
 For further assistance, use our custom GPT-powered helpdesk agent.
-
