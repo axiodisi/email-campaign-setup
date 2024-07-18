@@ -20,4 +20,3 @@
    - Select the `main` branch and click "Save".
 
 Your website will be live at `https://your-username.github.io/your-repo-name/`.
-
